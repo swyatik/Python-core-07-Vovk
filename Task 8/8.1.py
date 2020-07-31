@@ -12,9 +12,9 @@ def main():
     charList = []
     symbolList = []
     for item in userList:
-        if item in [i for i in (range(1, 10))]: numberList.append(item)
-        elif item.isalpha(): charList.append(item)
-        else: symbolList.append(item)
+        if item in [i for i in (range(1, 10))]: numberList += [item]
+        elif item.isalpha(): charList += [item]
+        else: symbolList += [item]
 
     numberTuple = tuple(numberList)
     charTuple = tuple(charList)
