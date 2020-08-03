@@ -1,4 +1,3 @@
-from random import randint
 
 def main():
     school = {"1a": 7, "1b": 27, "2a": 30, "2b": 20, "3a": 22, "7b": 33, "8a": 23, "9a": 18, "9b": 21, "10b": 26}
