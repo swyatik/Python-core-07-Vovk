@@ -5,8 +5,8 @@ from random import randint
 
 #  function of prints a matrix
 def printMatrix(matrix):
-    for i in matrix:
-        for j in i:
+    for item in matrix:
+        for jtem in item:
             print("%4d " % j, end="")
         print()
 
@@ -15,9 +15,9 @@ row = 5
 
 matrix = [[] for i in range(row)]
 
-for i in matrix:
+for item in matrix:
     for j in range(column):
-        i.append(randint(1, 20))
+        item.append(randint(1, 20))
 
 print('\nMatrix to sorting elements:')
 print(f'{"_" * 5 * column}')
