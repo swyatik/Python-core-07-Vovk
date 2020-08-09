@@ -21,12 +21,12 @@ def check():
 
 
 matrix = [[] for i in range(4)]
-for i in matrix:
+for item in matrix:
     sumRow = 0
-    for j in range(4):
-        i.append(check())
-        sumRow += i[j]
-    i.append(sumRow)
+    for jtem in range(4):
+        item.append(check())
+        sumRow += item[jtem]
+    item.append(sumRow)
 
 print('Your matrix:')
 printMatrix(matrix)
