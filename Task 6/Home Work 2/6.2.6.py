@@ -14,9 +14,9 @@ def printMatrix(matrix):
 rowColumn = 10
 matrix = [[] for i in range(rowColumn)]
 
-for i in matrix:
+for item in matrix:
     for j in range(rowColumn):
-        i.append(randint(1, 20))
+        item.append(randint(1, 20))
 
 print('\nMatrix to replace elements:')
 print(f'{"_" * 5 * rowColumn}')
